@@ -1,0 +1,28 @@
+body {
+  background-color: F0F0F0;
+}
+
+.menu {
+  text-align: center;
+}
+
+h1 {
+  color: black;
+  text-align: center;
+}
+
+p {
+  font-family: verdana;
+  font-size: 20px;
+}
+
+.competence-1    {color: #FF0000;}
+.competence-2    {color: #FF3300;}
+.competence-3    {color: #FF6600;}
+.competence-4    {color: #FF9900;}
+.competence-5    {color: #FFCC00;}
+.competence-6    {color: #CCFF00;}
+.competence-7    {color: #99FF00;}
+.competence-8    {color: #66FF00;}
+.competence-9    {color: #33FF00;}
+.competence-10    {color: #00ff00;}
