@@ -1,28 +1,151 @@
 body {
-  background-color: F0F0F0;
+  background-color: #F0F0F0;
+  color: #222222;
+  font-size: 16px;
+  font-family: Helvetica;
+  margin: 0;
+  min-width: 320px;
+  text-rendering: optimizeSpeed;
+}
+
+.header {
+    font-size: 17px;
+    height: 50px;
+    margin: 0 auto;
+    min-width: 320px;
+    position: relative;
+    width:100%
 }
 
 .menu {
-  text-align: center;
+    background-color: #343434;
+    display: block;
+    height: 50px;
+    margin: 0 auto;
+    min-width: 320px;
+    position: relative;
+    text-align: center;
+}
+
+.menu-element {
+    cursor: pointer;
+    display: inline-block;
+    height: 50px;
+    margin: 0;
+    margin-left: 2%;
+    max-width: 80px;
+    position: relative;
+    vertical-align: top;
+}
+
+.menu-element a {
+    color: #FFFFFF;
+    text-align: center;
+    text-decoration: none;
+}
+
+.footer {
+    display: block;
+    font-size: 110%;
+    margin: 20px auto 100px;
+    max-width: 700px;
+    padding: 0 15px;
+    text-align: center;
+}
+
+.greetings {
+    padding: 10px;
+    text-align: center;
+}
+
+.story {
+    margin: 10px;
+    text-align: center;
+}
+
+.projects {
+    margin: 10px;
+    text-align: center;
+}
+
+.project-entry {
+}
+
+.competencies {
+    background-color: #343434;
+    color: #FFFFFF;
+    margin: 10px;
+    text-align: center;
+}
+
+.competence{
+    border-bottom: 1px dotted black;
+    display: inline-block;
+    position: relative;
+}
+
+.competence .competence-tooltip {
+    background-color: #e1e1e1;
+    border-radius: 3px;
+    color: #000;
+    padding: 5px 10px;
+    position: absolute;
+    text-align: center;
+    visibility: hidden;
+    z-index: 1;
+}
+
+.competence:hover .competence-tooltip {
+    visibility: visible;
+}
+
+.competence-1 {
+    color: #FF0000;
+}
+.competence-2 {
+    color: #FF3300;
+}
+.competence-3 {
+    color: #FF6600;
+}
+.competence-4 {
+    color: #FF9900;
+}
+.competence-5 {
+    color: #FFCC00;
+}
+.competence-6 {
+    color: #CCFF00;
+}
+.competence-7 {
+    color: #99FF00;
+}
+.competence-8 {
+    color: #66FF00;
+}
+.competence-9 {
+    color: #33FF00;
+}
+.competence-10 {
+    color: #00ff00;
+}
+
+.notes {
+    text-align: center;
+}
+
+.speeches {
+    text-align: center;
 }
 
 h1 {
-  color: black;
-  text-align: center;
+    color: black;
+    text-align: center;
 }
 
 p {
-  font-family: verdana;
-  font-size: 20px;
+    font-family: verdana;
+    font-size: 20px;
 }
 
-.competence-1    {color: #FF0000;}
-.competence-2    {color: #FF3300;}
-.competence-3    {color: #FF6600;}
-.competence-4    {color: #FF9900;}
-.competence-5    {color: #FFCC00;}
-.competence-6    {color: #CCFF00;}
-.competence-7    {color: #99FF00;}
-.competence-8    {color: #66FF00;}
-.competence-9    {color: #33FF00;}
-.competence-10    {color: #00ff00;}
+
