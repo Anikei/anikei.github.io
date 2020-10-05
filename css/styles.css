@@ -81,6 +81,7 @@ body {
 .competence{
     border-bottom: 1px dotted black;
     display: inline-block;
+    margin: 10px;
     position: relative;
 }
 
@@ -132,6 +133,20 @@ body {
 
 .notes {
     text-align: center;
+}
+
+.book_preview {
+    vertical-align: inherit;
+}
+
+.book_preview img {
+    height:50px;
+    width:50px;
+}
+
+.book_preview a {
+    height:50px;
+    vertical-align: 70%;
 }
 
 .speeches {
